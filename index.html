@@ -18,7 +18,7 @@
       </div>
       <div class="status-bar__column">
         <span>11%</span>
-        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
@@ -26,17 +26,27 @@
       <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
         <p class="welcome-header__text">
-          If you have a Kokoa Account, log in with your email or phone number.
+          If you have a Kokoa Account,<br />
+          log in with your email or phone number.
         </p>
       </header>
 
-      <form id="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="LOg In" />
+      <form action="friends.html" method="get" class="login-form">
+        <input
+          name="username"
+          class="login-form__input"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input
+          name="password"
+          class="login-form__input"
+          type="password"
+          placeholder="Password"
+        />
+        <input class="login-form__btn" type="submit" value="Log In" />
+        <a class="login-form__a" href="#"> Find Kokoa Account or Password</a>
       </form>
-
-      <a href="#"> Find Kokoa Account or Password</a>
     </div>
     <script
       src="https://kit.fontawesome.com/27a17f9968.js"
