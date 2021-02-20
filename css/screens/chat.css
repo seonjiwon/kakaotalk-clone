@@ -123,12 +123,12 @@
 }
 
 .reply input {
+  box-sizing: border-box;
   padding: 10px;
   height: 40px;
-  width: 100%;
+  width: 95%;
   border: var(--main-border);
   border-radius: 30px;
-  box-sizing: border-box;
   transition: all 0.3s ease-in-out;
 }
 
@@ -140,9 +140,9 @@
 }
 
 .reply__column:last-child > i {
-  top: 8px;
+  top: 7px;
   font-size: 28px;
-  right: 50px;
+  right: 70px;
 }
 
 .reply__column:last-child button {
@@ -150,6 +150,7 @@
   border: none;
   width: 36px;
   height: 36px;
+  right: 28px;
   top: 2px;
   font-size: 20px;
   border-radius: 50%;
